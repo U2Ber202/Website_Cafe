@@ -420,3 +420,7 @@ wwwroot/service-worker-assets.js
 # Local config overrides that may contain secrets
 appsettings.Development.json
 appsettings.Local.json
+
+# Only ignore appsettings in the web project folder
+Website/appsettings.json
+Website/appsettings.*.json
